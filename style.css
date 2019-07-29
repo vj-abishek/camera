@@ -1,0 +1,24 @@
+body{
+    padding:0;
+    margin:0;
+}
+.video{
+    position: fixed;
+    top:0px;
+    z-index: 3;
+    right:0px;
+    width:100px;
+    height:100px;
+
+}
+canvas{
+    position: absolute;
+    top:0px;
+    left:0px;
+}
+#strip{
+    position: absolute;
+    bottom: 0px;
+    width:100%;
+    background: royalblue;
+}
